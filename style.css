@@ -17,6 +17,12 @@ p {
     justify-content: left;
 }
 
+#players{
+    align-items: start;
+    justify-content: left;
+    height: 10em;
+}
+
 .Briefcase{
     font-size: 5rem;
     cursor: pointer;
