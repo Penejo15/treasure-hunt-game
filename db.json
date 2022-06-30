@@ -1,0 +1,12 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Green horse"
+    },
+    {
+      "id": 2,
+      "name": "Great lion"
+    }
+  ]
+}
