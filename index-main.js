@@ -1,4 +1,27 @@
 
+const closed = document.querySelector('.closed');
+const opened = document.querySelector('.opened');
+
+//Adding event Listener
+
+closed.addEventListener('click', () => {
+    if(opened.classList.contains('open')) {
+       opened.classList.add('active');
+       closed.classList.remove('active');
+
+    }
+})
+
+opened.addEventListener('click', () => {
+    if(closed.classList.contains('closed')) {
+        closed.classList.add('active');
+        opened.classList.remove('active');
+    }
+})
+
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("create_players_name");
     form.addEventListener("submit", (e) => {
@@ -67,3 +90,4 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
 })
+
