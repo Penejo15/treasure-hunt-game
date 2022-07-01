@@ -9,9 +9,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25em;
-    background-color: gray;
+    height: 40em;
+    background-color: rgb(123, 179, 41);
 }
+
+.welcome{
+    color: rgb(5, 5, 71);
+    font-weight: bold;
+    margin-top:30px;
+
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    color: rgb(5, 5, 71);
+    font-weight: bold;
+    margin-top:30px;
+    position:centre;
+}
+
+.wholeGame{
+    margin-top: 10%;
+}   
 
 p {
     justify-content: left;
@@ -21,12 +41,15 @@ p {
     align-items: start;
     justify-content: left;
     height: 10em;
+    position: top;
+    font-size: 1.5rem;
 }
 
 .Briefcase{
     font-size: 5rem;
     cursor: pointer;
     user-select: none;
+    float:right;
 
 }
 
@@ -39,5 +62,45 @@ p {
 }
 
 .active {
+    display: block;
+}
+
+.Briefcase1{
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+    float:left;
+
+}
+
+.closed1 {
+    display: none;
+}
+
+.opened1 {
+    display: none;
+}
+
+.active1 {
+    display: block;
+}
+
+
+.Briefcase2{
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+    float: left;
+}
+
+.closed2 {
+    display: none;
+}
+
+.opened2 {
+    display: none;
+}
+
+.active2 {
     display: block;
 }

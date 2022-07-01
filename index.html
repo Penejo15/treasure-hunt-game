@@ -7,6 +7,7 @@
     <title>Moringa group one</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<br>
 <body>
     <div id="players">
         <form id="create_players_name" onsubmit="return false" action="" method="POST">
@@ -16,25 +17,47 @@
         </form>
         
     </div>
-    
-    <p><h1>WELCOME TO THE TREASURE HUNT GAME</h1></p>
+
+    <div class="welcome">
+        <h1>WELCOME TO THE TREASURE HUNT GAME</h1>
+    </div>
+<!--
+    <div class="container">
+        <h1><span class="auto-type">WELCOME TO THE TREASURE HUNT GAME</span></h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new typed(".auto-type,"{
+            strings : ["Have", "Some", "fun", "Playing"],
+            typeSpeed : 150,
+            backspeed : 150,
+            looped : true
+        })
+    </script>
+-->
     <div id="player_info">
 
-        </div
-    <div id="safeTimer">
-        <h2>Timer</h2>
-        <p id="display_timer"></p>
-    </div> 
+    </div>
+
+        
+    
     <br>
-    <p>This is a game of luck, one of these briefcases contains a fortune.<br> You just might be the lucky winner!<br>
-    Click on the lock of any of the briefcases to find out.</p>
+    <p><h3>This is a game of luck, one of these briefcases contains a fortune.<br> You just might be the lucky winner!<br>
+    Click on the lock of any of the briefcases to find out.</h3></p>
     <br>
     <br>
+<div class="allboxes">
     <div class="Briefcase closed active">💼</div>
     <div class="Briefcase opened">💰</div>
-  
+    <div class="Briefcase1 closed1 active1">💼</div>
+    <div class="Briefcase1 opened1">💰</div>
+    <div class="Briefcase2 closed2 active2">💼</div>
+    <div class="Briefcase2 opened2">💰</div>
+</div>
     
-    <script src='index.js'></script>
+    <script src='index-main.js'></script>
 </body>
 
 </html
+
